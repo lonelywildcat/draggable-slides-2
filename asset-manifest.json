@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/draggable-slides-2/static/js/main.6a29c357.chunk.js",
+    "main.js.map": "/draggable-slides-2/static/js/main.6a29c357.chunk.js.map",
+    "runtime-main.js": "/draggable-slides-2/static/js/runtime-main.c8fb7140.js",
+    "runtime-main.js.map": "/draggable-slides-2/static/js/runtime-main.c8fb7140.js.map",
+    "static/js/2.f68f1e0f.chunk.js": "/draggable-slides-2/static/js/2.f68f1e0f.chunk.js",
+    "static/js/2.f68f1e0f.chunk.js.map": "/draggable-slides-2/static/js/2.f68f1e0f.chunk.js.map",
+    "index.html": "/draggable-slides-2/index.html",
+    "precache-manifest.2fb7a88bbcaad186d17aece864fc1c97.js": "/draggable-slides-2/precache-manifest.2fb7a88bbcaad186d17aece864fc1c97.js",
+    "service-worker.js": "/draggable-slides-2/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8fb7140.js",
+    "static/js/2.f68f1e0f.chunk.js",
+    "static/js/main.6a29c357.chunk.js"
+  ]
+}
