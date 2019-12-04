@@ -1,25 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import GlobalStyle from './globalStyle';
+import { Slides } from './slides';
+import { SlideContent } from './style'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>      
+      <GlobalStyle />
+      <Slides minWidth="600px" >
+        <SlideContent>1</SlideContent>
+        <SlideContent>2</SlideContent>
+        <SlideContent>3</SlideContent>
+        <SlideContent>4</SlideContent>
+        <SlideContent>5</SlideContent>
+      </Slides>      
+    </Fragment>
   );
 }
 
